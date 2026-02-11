@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.navbar {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #16a34a;
+}
+
+.why {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.3);
+}
+.form-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.application-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.application-form button {
+  padding: 12px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.application-form button:hover {
+  background: #2563eb;
+}
